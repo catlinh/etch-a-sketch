@@ -3,7 +3,6 @@ let container = document.querySelector(".container")
 createGrid(16);
 
 function clickButton(){
-    console.log("print");
     let boxes=prompt("Enter a grid size:");
     while(boxes>100 || isNaN(boxes)){
         boxes=prompt("Invalid. Please enter a number between 1-100:")
